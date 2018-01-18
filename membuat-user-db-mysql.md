@@ -12,6 +12,9 @@
 
 - Kemudian ctrl+x kemudian pilih Y kemudian enter
 
+- Terakhir restart package `sudo service restart namapackage` namanya `apache2` , `mysql`
+
+
 ### Membuat database baru
 
 - Buka mysql dengan `mysql -u root -p` ini apabila user root masih defaul, isi password nya
