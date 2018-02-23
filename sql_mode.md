@@ -1,3 +1,9 @@
+# Hapus valid password plugin yang menyusahkan
+
+- Masuk ke mysql kamu `mysql -u root -p`
+
+- Kemudian ketik perintah `uninstall plugin validate_password;` jika sudah `exit`
+
 # Panduan untuk mengatasi sql mode
 
 - Pertama buka setting mysql di `/etc/mysql/mysql.cnf` edit menggunakan `nano` dengan perintah `sudo nano /etc/mysql/mysql.cnf`
