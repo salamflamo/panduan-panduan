@@ -32,6 +32,8 @@
 
 - kemudian setelah selesai cek apakah ada file `composer.phar` atau tidak, ketik `ls | grep composer`
 
+- jika masih gagal lihat situ [https://getcomposer.org/download/](composer)
+
 - jika ada maka lanjutkan perintah `sudo cp composer.phar /usr/local/bin/composer`
 
 - kemudian aktifkan `mode_rewrite` keti `sudo a2enmod rewrite && sudo service apache2 reload`
