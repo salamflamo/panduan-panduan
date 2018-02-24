@@ -42,7 +42,7 @@
 
 - buka terminal kemudian `sudo nano /etc/apache2/sites-available/000-default.conf`
 
-- kemudian tambahkan ini
+- kemudian tambahkan ini dibawah `DocumentRoot /var/www/html/
 
 ```
 <Directory /var/www/html/>
@@ -51,7 +51,5 @@
       Require all granted
 </Directory>
 ```
-- dibawah `DocumentRoot /var/www/html/`
-
 - kemudian save dan `sudo service apache2 reload`
 
