@@ -37,3 +37,21 @@
 - jika ada maka lanjutkan perintah `sudo cp composer.phar /usr/local/bin/composer`
 
 - kemudian aktifkan `mode_rewrite` keti `sudo a2enmod rewrite && sudo service apache2 reload`
+
+## Membuat vihost agar bisa symlink
+
+- buka terminal kemudian `sudo nano /etc/apache2/sites-available/000-default.conf`
+
+- kemudian tambahkan ini
+
+```
+<Directory /var/www/html/>
+      Options Indexes FollowSymLinks
+      AllowOverride All
+      Require all granted
+</Directory>
+```
+- dibawah `DocumentRoot /var/www/html/`
+
+- kemudian save dan `sudo service apache2 reload`
+
