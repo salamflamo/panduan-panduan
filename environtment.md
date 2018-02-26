@@ -20,6 +20,8 @@
 
 - install `chrome`
 
+- install `wine` dan install `sql yog` **jangan _bajakan_**
+
 ## Install composer
 
 - buka terminal dan ketik perintah dibawah satu persatu
