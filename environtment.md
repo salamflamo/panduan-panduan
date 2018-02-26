@@ -57,7 +57,7 @@
 ```
 - kemudian save dan `sudo service apache2 reload`
 
-## Membuat terminal lebi pendek
+## Membuat terminal lebih pendek
 
 - buka terminal
 
@@ -68,3 +68,18 @@
 - disitu terdapat huruf `w` kecil, ubah menjadi huruf `W` besar
 
 - kemudian save , close dan buka lagi terminal
+
+## Membuat executor projek berbasis php
+
+- buka terminal kemudian `nano jalankan` ini nama file saya
+
+- kemudian buatlah seperti ini
+
+```
+#!/bin/bash
+php -S localhost:$@
+```
+
+- kemudian save dan ubah `chmod` `chmod 755 jalankan && chmod +x jalankan`
+
+- agar dapat diakses global, pindah jalankan `sudo mv jalankan /usr/local/bin`
