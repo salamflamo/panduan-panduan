@@ -53,3 +53,14 @@
 ```
 - kemudian save dan `sudo service apache2 reload`
 
+## Membuat terminal lebi pendek
+
+- buka terminal
+
+- kemudian `sudo gedit ~/.bashrc`
+
+- kemudian cari `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\] \[\033[01;37m\]\w \$\[\033[00m\] '`
+
+- disitu terdapat huruf `w` kecil, ubah menjadi huruf `W` besar
+
+- kemudian save , close dan buka lagi terminal
