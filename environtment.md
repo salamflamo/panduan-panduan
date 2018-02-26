@@ -18,6 +18,8 @@
 
 - install `git`
 
+- install `chrome`
+
 ## Install composer
 
 - buka terminal dan ketik perintah dibawah satu persatu
