@@ -83,3 +83,5 @@ php -S localhost:$@
 - kemudian save dan ubah `chmod` `chmod 755 jalankan && chmod +x jalankan`
 
 - agar dapat diakses global, pindah jalankan `sudo mv jalankan /usr/local/bin`
+
+- untuk menjalankan ketik `jalankan [port]` di terminal, contoh `jalankan 9000` maka project php jalan di `localhost:9000`
