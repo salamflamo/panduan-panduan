@@ -55,6 +55,7 @@ Disallow root login remotely? (Press y|Y for Yes, any other key for No) : <= n
 Remove test database and access to it? (Press y|Y for Yes, any other key for No) : <= y
 Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y <=
 ```
+- buat user `root` dengan akses `%`
 ### Install php
 
 - `sudo apt-get install php7.0 libapache2-mod-php7.0`
