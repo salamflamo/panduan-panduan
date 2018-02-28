@@ -58,6 +58,8 @@ Remove test database and access to it? (Press y|Y for Yes, any other key for No)
 Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y <=
 ```
 - buat user `root` dengan akses `%`
+- buat `sql_mode` untuk menghapus `only_full_group_by`
+
 ### Install php
 
 - `sudo apt-get install php7.0 libapache2-mod-php7.0`
