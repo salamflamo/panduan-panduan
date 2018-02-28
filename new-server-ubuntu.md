@@ -35,7 +35,11 @@ Is the information correct? [Y/n]
 
 - `sudo apt install apache2`
 
-- 
+- `sudo nano /etc/apache2/apache2.conf`
+
+- tambah di baris terakhir `ServerName server_domain_or_IP`
+
+- simpan kemudian `sudo service apache2 restart`
 
 ### Install mysql
 
