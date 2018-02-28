@@ -30,3 +30,32 @@ Is the information correct? [Y/n]
 - jika sudah exit
 
 ## Menyiapkan depedencies yang dibutuhkan
+
+### Install apache2
+
+- `sudo apt install apache2`
+
+- 
+
+### Install mysql
+
+- `sudo apt install mysql-server mysql-client`
+
+- `mysql_secure_installation`
+
+```
+Enter password for user root : <= y
+Change the password for root ? ((Press y|Y for Yes, any other key for No) : <= n
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : <= y
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : <= n
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : <= y
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y <=
+```
+### Install php
+
+- `sudo apt-get install php7.0 libapache2-mod-php7.0`
+
+- `sudo apt-cache search php7.0`
+
+- `sudo apt install libapache2-mod-php7.0 php-all-dev php7.0 php7.0-cgi php7.0-cli php7.0-common php7.0-curl php7.0-dev php7.0-gd php7.0-gmp php7.0-json php7.0-ldap php7.0-mysql php7.0-odbc php7.0-opcache php7.0-pgsql php7.0-pspell php7.0-readline php7.0-recode php7.0-snmp php7.0-sqlite3 php7.0-tidy php7.0-xml php7.0-xmlrpc libphp7.0-embed php7.0-bcmath php7.0-bz2 php7.0-enchant php7.0-fpm php7.0-imap php7.0-interbase php7.0-intl php7.0-mbstring php7.0-mcrypt php7.0-phpdbg php7.0-soap php7.0-sybase php7.0-xsl php7.0-zip php7.0-dba`
+
