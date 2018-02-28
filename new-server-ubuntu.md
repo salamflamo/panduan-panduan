@@ -41,6 +41,8 @@ Is the information correct? [Y/n]
 
 - simpan kemudian `sudo service apache2 restart`
 
+- `sudo ufw allow in "Apache Full"`
+
 ### Install mysql
 
 - `sudo apt install mysql-server mysql-client`
