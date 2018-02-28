@@ -1,5 +1,7 @@
 # Panduan untuk server ubuntu baru
 
+## Membuat user akses sudo baru
+
 - Buat droplet di digital ocean dengan OS ubuntu dan pake $5/month jangan mahal-mahal
 
 - Akses menggunakan ssh dan ganti password
@@ -26,3 +28,5 @@ Is the information correct? [Y/n]
 - kemudian `usermod -aG sudo username`
 
 - jika sudah exit
+
+## Menyiapkan depedencies yang dibutuhkan
