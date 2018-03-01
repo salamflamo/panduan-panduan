@@ -22,6 +22,8 @@
 
 - install `wine` dan install `sql yog` **jangan _bajakan_**
 
+- install `tmux` => `sudo apt install tmux` , cara menggunakan `ctrl+b "` horizontal , `ctrl+b %` vertical
+
 ## Install composer
 
 - buka terminal dan ketik perintah dibawah satu persatu
