@@ -43,6 +43,12 @@ Is the information correct? [Y/n]
 
 - `sudo ufw allow in "Apache Full"`
 
+- setelah itu edit file `sudo nano /etc/apache2/mods-enabled/dir.conf`
+
+- kemudian terlihat `DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm` pindahkan `index.php` di barisan paling depan
+
+- jika sudah save dan `sudo service apache2 reload`
+
 ### Install mysql
 
 - `sudo apt install mysql-server mysql-client`
