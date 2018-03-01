@@ -24,6 +24,8 @@
 
 - install `tmux` => `sudo apt install tmux` , cara menggunakan `ctrl+b "` horizontal , `ctrl+b %` vertical
 
+- install `sshpass` cara menggunakan `sshpass -p 'password' ssh -p [port] -t user@host "command"`
+
 ## Install composer
 
 - buka terminal dan ketik perintah dibawah satu persatu
