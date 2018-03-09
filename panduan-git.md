@@ -6,6 +6,8 @@
 
 - masuk ke folder projek
 
+- `git init`
+
 - `git config --global user.email "emailmu@gmail.com"`
 
 - `git config --global user.name "username"`
