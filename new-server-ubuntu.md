@@ -67,6 +67,7 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y <=
 - buat `sql_mode` untuk menghapus `only_full_group_by`
 
 ### Install php
+- `sudo add-apt-repository ppa:ondrej/php`
 
 - `sudo apt-get install php7.0 libapache2-mod-php7.0`
 
