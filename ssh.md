@@ -10,4 +10,4 @@
 
 - simpan dan restart `sudo service ssh restart`
 
-- sekarang akses `ssh-copy-id -p [port_ssh] user@server`
+- sekarang akses `ssh -p [port_ssh] user@server`
